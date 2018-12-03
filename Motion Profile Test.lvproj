@@ -282,16 +282,6 @@ AddOutputFilter chunkFilter
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
-				<Item Name="IMAQdx Buffer Number Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Buffer Number Mode.ctl"/>
-				<Item Name="IMAQdx Close Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Close Camera.vi"/>
-				<Item Name="IMAQdx Configure Grab.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Configure Grab.vi"/>
-				<Item Name="IMAQdx Enumerate Cameras.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Enumerate Cameras.vi"/>
-				<Item Name="IMAQdx Enumerate Video Modes.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Enumerate Video Modes.vi"/>
-				<Item Name="IMAQdx Get Image Data.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Get Image Data.vi"/>
-				<Item Name="IMAQdx Get Image.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Get Image.vi"/>
-				<Item Name="IMAQdx Open Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Open Camera.vi"/>
-				<Item Name="IMAQdx Stop Acquisition.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Stop Acquisition.vi"/>
-				<Item Name="IMAQdx Unconfigure Acquisition.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Unconfigure Acquisition.vi"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LEB Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/LEB Encoder.vi"/>
@@ -317,6 +307,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NT Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Event Type.ctl"/>
@@ -604,8 +595,8 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Motion Profile Global Variable.vi" Type="VI" URL="../../Random VIs/Motion Profile Global Variable.vi"/>
 			<Item Name="Motion Profile SM.ctl" Type="VI" URL="../Motion Profile SM.ctl"/>
+			<Item Name="MotionProfileController.vi" Type="VI" URL="../Motion_Profile/MotionProfileController.vi"/>
 			<Item Name="MotionProfileUpdater.vi" Type="VI" URL="../Motion_Profile/MotionProfileUpdater.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -619,8 +610,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SelectedMotionProfileMode.vi" Type="VI" URL="../Motion_Profile/SelectedMotionProfileMode.vi"/>
-			<Item Name="Talon SRX PIDF Cluster.ctl" Type="VI" URL="../../Random VIs/Talon SRX PIDF Cluster.ctl"/>
 			<Item Name="TrajectoryPointCluster.ctl" Type="VI" URL="../Motion_Profile/TrajectoryPointCluster.ctl"/>
 			<Item Name="ZeroDrivetrainSensors.vi" Type="VI" URL="../Motion_Profile/ZeroDrivetrainSensors.vi"/>
 		</Item>

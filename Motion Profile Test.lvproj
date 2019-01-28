@@ -8,7 +8,7 @@
 	<Property Name="varPersistentID:{D570824B-70DF-4483-925E-0D9196D9C46E}" Type="Ref">/Target/Drive System.lvlib/Align Assist</Property>
 	<Property Name="varPersistentID:{DDC3E7EC-CA4E-49B0-81D6-69C4578E87D2}" Type="Ref">/Target/Drive System.lvlib/Dvr2</Property>
 	<Property Name="varPersistentID:{EFEDF970-2D4B-4F07-A210-92E4CD69EB43}" Type="Ref">/Target/Drive System.lvlib/Dvr1</Property>
-	<Property Name="varPersistentID:{F5D205DF-9B97-4438-A5D5-CD958D310B7F}" Type="Ref">/Target/Drive System.lvlib/Left Drive JS</Property>
+	<Property Name="varPersistentID:{F5D205DF-9B97-4438-A5D5-CD958D310B7F}" Type="Ref">/Target/Drive System.lvlib/Drive Direction</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -137,6 +137,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/De-Bounce_or_Delay.vi"/>
+				<Item Name="UpDown_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/UpDown_Counter.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
